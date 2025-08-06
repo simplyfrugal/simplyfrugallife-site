@@ -1,0 +1,10 @@
+{
+  "name": "simplyfrugallife-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hugo --gc --minify"
+  },
+  "devDependencies": {
+    "hugo-extended": "^0.119.0"
+  }
+}
