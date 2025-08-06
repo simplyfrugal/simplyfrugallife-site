@@ -1,7 +1,9 @@
 baseURL = "https://simplyfrugallife.vip/"
 languageCode = "en-us"
 title = "Simply Frugal Life"
-theme = "papermod"
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod/v7"
 paginate = 6
 
 [params]
