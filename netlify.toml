@@ -1,5 +1,9 @@
 [build]
-  command = "git submodule update --init --recursive && hugo --gc --minify"
+  command = """
+    mkdir -p themes &&
+    git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod &&
+    hugo --gc --minify
+  """
   publish = "public"
 
 [build.environment]
