@@ -1,0 +1,17 @@
+baseURL = "https://simplyfrugallife.vip/"
+languageCode = "en-us"
+title = "Simply Frugal Life"
+theme = "papermod"
+paginate = 6
+
+[params]
+  mainSections = ["money-saving", "cleaning-organizing", "diy-home-projects", "recipes", "seasonal-tips"]
+  author = "SimplyFrugal"
+  description = "Smart ways to save more and live better."
+  primaryColor = "#4CAF50"
+  secondaryColor = "#FFD54F"
+  googleAdsense = true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
