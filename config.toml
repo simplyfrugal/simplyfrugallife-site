@@ -1,17 +1,12 @@
-baseURL = "https://simplyfrugallife.vip/"
-languageCode = "en-us"
-title = "Simply Frugal Life"
-theme = "PaperMod"
-paginate = 6
+baseURL = 'https://your-site.netlify.app'  # Update this to your actual URL
+languageCode = 'en-us'
+title = 'SimplyFrugalLife'
+theme = 'PaperMod'
 
 [params]
-  mainSections = ["money-saving", "cleaning-organizing", "diy-home-projects", "recipes", "seasonal-tips"]
-  author = "SimplyFrugal"
-  description = "Smart ways to save more and live better."
-  primaryColor = "#4CAF50"
-  secondaryColor = "#FFD54F"
-  googleAdsense = true
-
-[markup]
-  [markup.goldmark.renderer]
-    unsafe = true
+  # PaperMod specific settings
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
