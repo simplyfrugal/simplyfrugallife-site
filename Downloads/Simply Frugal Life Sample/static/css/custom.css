@@ -1,0 +1,9 @@
+/* Custom colors for SimplyFrugalLife */
+body {
+  --pm-primary-color: #4CAF50;
+  --pm-secondary-color: #FFD54F;
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+}
